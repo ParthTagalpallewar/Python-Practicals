@@ -1,0 +1,13 @@
+class Person:
+    def __init__(self, fl, ln):
+        self.first_name = fl
+        self.last_name = ln
+
+    def print_name(self):
+        print(self.first_name, self.last_name)
+
+class Student(Person):
+    pass
+
+x = Student("John", "Doe")
+x.print_name()
